@@ -2,6 +2,12 @@
   "name": "culture-check",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18 <19",
+    "pnpm": ">=7",
+    "npm": "Please use pnpm",
+    "yarn": "Please use pnpm"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
